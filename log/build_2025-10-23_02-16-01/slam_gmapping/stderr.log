@@ -1,0 +1,27 @@
+[0m -fuse-ld=lld -Wl,--disable-new-dtags[0m
+[33mCMake Warning (dev) at CMakeLists.txt:46 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:38:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.h: No such file or directory
+   38 | #include [01;31m[K"tf2_geometry_msgs/tf2_geometry_msgs.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/include/slam_gmapping/transform.h:18:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.h: No such file or directory
+   18 | #include [01;31m[K"tf2_geometry_msgs/tf2_geometry_msgs.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/slam_gmapping.dir/build.make:76: CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/transform.dir/build.make:76: CMakeFiles/transform.dir/src/transform.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/slam_gmapping.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/transform.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

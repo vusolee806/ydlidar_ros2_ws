@@ -1,0 +1,28 @@
+ydlidar_ros2_driver_node:
+  ros__parameters:
+    port: /dev/ttyUSB0
+    frame_id: laser_frame
+    ignore_array: ""
+    # Sửa Baudrate cho đúng với YDLIDAR X3
+    baudrate: 115200
+    lidar_type: 1  #đổi từ 1 -> 5 do loi 1 la cua prox4
+    device_type: 0
+    isSingleChannel: false
+    intensity: false
+    intensity_bit: 0
+    sample_rate: 5 # Tần số lấy mẫu của X3 là 3000-5000Hz, tương ứng sample_rate 5-9
+    abnormal_check_count: 4
+    fixed_resolution: true
+    reversion: false
+    inverted: false # Đặt là true nếu LiDAR của bạn bị lắp ngược
+    auto_reconnect: true
+    support_motor_dtr: false
+    angle_max: 180.0
+    angle_min: -180.0
+    # Sửa khoảng cách tối đa cho đúng với YDLIDAR X3
+    range_max: 8.0 
+    range_min: 0.12 # Khoảng cách tối thiểu của X3 là 0.12m
+    # Tần số quay của X3 thường từ 5-12Hz
+    frequency: 5.0
+    invalid_range_is_inf: false
+    debug: false

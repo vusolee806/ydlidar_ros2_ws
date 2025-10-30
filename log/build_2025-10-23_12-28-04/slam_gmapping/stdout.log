@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/transform.dir/src/transform.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable slam_gmapping[0m
+[ 75%] Built target slam_gmapping

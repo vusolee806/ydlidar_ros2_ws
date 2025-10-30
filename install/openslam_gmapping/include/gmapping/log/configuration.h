@@ -1,0 +1,1 @@
+/home/vusolee806/ydlidar_ros2_ws/src/openslam_gmapping/include/gmapping/log/configuration.h

@@ -1,0 +1,75 @@
+[0.022s] Invoking command in '/home/vusolee806/ydlidar_ros2_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vusolee806/ydlidar_ros2_ws/src/openslam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping
+[0.053s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.367s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.516s] -- Configuring done (0.5s)
+[0.547s] -- Generating done (0.0s)
+[0.553s] -- Build files have been written to: /home/vusolee806/ydlidar_ros2_ws/build/openslam_gmapping
+[0.559s] Invoked command in '/home/vusolee806/ydlidar_ros2_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vusolee806/ydlidar_ros2_ws/src/openslam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping
+[0.561s] Invoking command in '/home/vusolee806/ydlidar_ros2_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vusolee806/ydlidar_ros2_ws/build/openslam_gmapping -- -j16 -l16
+[0.636s] [ 27%] Built target sensor_base
+[0.636s] [ 27%] Built target utils
+[0.670s] [ 40%] Built target sensor_range
+[0.670s] [ 54%] Built target sensor_odometry
+[0.704s] [ 77%] Built target scanmatcher
+[0.744s] [100%] Built target gridfastslam
+[0.761s] Invoked command in '/home/vusolee806/ydlidar_ros2_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vusolee806/ydlidar_ros2_ws/build/openslam_gmapping -- -j16 -l16
+[0.774s] Invoking command in '/home/vusolee806/ydlidar_ros2_ws/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vusolee806/ydlidar_ros2_ws/build/openslam_gmapping
+[0.785s] -- Install configuration: ""
+[0.785s] -- Execute custom install script
+[0.785s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/lib/libgridfastslam.a
+[0.798s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/lib/libscanmatcher.a
+[0.809s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/lib/libsensor_base.a
+[0.821s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[0.833s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[0.846s] -- Up-to-date symlink: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[0.846s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[0.857s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/lib/libsensor_odometry.a
+[0.871s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/lib/libsensor_range.a
+[0.884s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/lib/libutils.a
+[0.896s] -- Up-to-date symlink: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[0.896s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[0.907s] -- Up-to-date symlink: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[0.907s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[0.919s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+[0.930s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h
+[0.942s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+[0.953s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/grid/map.h
+[0.964s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+[0.974s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+[0.984s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+[0.994s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/log/configuration.h
+[1.005s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+[1.016s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+[1.027s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+[1.036s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+[1.046s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+[1.056s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+[1.066s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+[1.074s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+[1.084s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+[1.094s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+[1.104s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+[1.113s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+[1.123s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h
+[1.132s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+[1.142s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+[1.152s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/utils/point.h
+[1.161s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include//gmapping/utils/stat.h
+[1.171s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+[1.180s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+[1.190s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+[1.201s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+[1.212s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+[1.223s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+[1.233s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+[1.242s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+[1.251s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+[1.261s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+[1.271s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+[1.282s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+[1.293s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+[1.302s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.313s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+[1.322s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+[1.332s] -- Symlinking: /home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml
+[1.345s] Invoked command in '/home/vusolee806/ydlidar_ros2_ws/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vusolee806/ydlidar_ros2_ws/build/openslam_gmapping

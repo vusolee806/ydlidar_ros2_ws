@@ -1,0 +1,222 @@
+[0.016s] Invoking command in '/home/vusolee806/ydlidar_ros2_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/vusolee806/ydlidar_ros2_ws/build/slam_gmapping -- -j16 -l16
+[0.144s] [ 50%] Built target slam_gmapping
+[0.154s] [ 75%] [32mBuilding CXX object CMakeFiles/transform.dir/src/transform.cpp.o[0m
+[3.655s] In file included from [01m[K/home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9[m[K,
+[3.655s]                  from [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[3.655s]                  from [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:3[m[K:
+[3.655s] [01m[K/home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:[m[K In function ‘[01m[Kvoid[01;32m[K rle[m[K(OutputIterator&, const Iterator&, const Iterator&)[m[K’:
+[3.655s] [01m[K/home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[3.656s]   140 |         [01;35m[Kif[m[K (count>0)
+[3.656s]       |         [01;35m[K^~[m[K
+[3.656s] [01m[K/home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:17:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[3.656s]   142 |                 [01;36m[Kout[m[K++;
+[3.656s]       |                 [01;36m[K^~~[m[K
+[3.724s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:[m[K In constructor ‘[01m[KTransform::[01;32m[KTransform[m[K()[m[K’:
+[3.724s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:11:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransform::declare_parameter(const char [14])[m[K’
+[3.725s]    11 |     [01;31m[Kthis->declare_parameter("parents_frame")[m[K;
+[3.725s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.725s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.725s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.725s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[3.725s]                  from [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/include/slam_gmapping/transform.h:10[m[K:
+[3.726s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const ParameterT&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.726s]   500 |   [01;36m[Kdeclare_parameter[m[K(
+[3.727s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.727s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.727s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:11:28:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.727s]    11 |     [01;36m[Kthis->declare_parameter("parents_frame")[m[K;
+[3.727s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.727s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.727s]   513 |   [01;36m[Kdeclare_parameter[m[K(
+[3.727s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.727s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.727s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:11:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[3.727s]    11 |     [01;36m[Kthis->declare_parameter("parents_frame")[m[K;
+[3.727s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.728s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rclcpp::ParameterValue&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.728s]   445 |   [01;36m[Kdeclare_parameter[m[K(
+[3.728s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.728s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.728s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, rclcpp::ParameterType, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.728s]   470 |   [01;36m[Kdeclare_parameter[m[K(
+[3.728s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.728s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.728s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:12:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransform::declare_parameter(const char [12])[m[K’
+[3.728s]    12 |     [01;31m[Kthis->declare_parameter("child_frame")[m[K;
+[3.728s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[3.728s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const ParameterT&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.728s]   500 |   [01;36m[Kdeclare_parameter[m[K(
+[3.728s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.728s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.728s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:12:28:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.728s]    12 |     [01;36m[Kthis->declare_parameter("child_frame")[m[K;
+[3.728s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[3.729s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.729s]   513 |   [01;36m[Kdeclare_parameter[m[K(
+[3.729s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.729s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.729s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:12:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[3.729s]    12 |     [01;36m[Kthis->declare_parameter("child_frame")[m[K;
+[3.729s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[3.729s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rclcpp::ParameterValue&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.729s]   445 |   [01;36m[Kdeclare_parameter[m[K(
+[3.729s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.729s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.729s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, rclcpp::ParameterType, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.729s]   470 |   [01;36m[Kdeclare_parameter[m[K(
+[3.730s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.730s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.730s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:13:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransform::declare_parameter(const char [2])[m[K’
+[3.730s]    13 |     [01;31m[Kthis->declare_parameter("x")[m[K;
+[3.730s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.730s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const ParameterT&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.730s]   500 |   [01;36m[Kdeclare_parameter[m[K(
+[3.730s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.730s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.730s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:13:28:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.731s]    13 |     [01;36m[Kthis->declare_parameter("x")[m[K;
+[3.731s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.731s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.731s]   513 |   [01;36m[Kdeclare_parameter[m[K(
+[3.731s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.731s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.731s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:13:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[3.732s]    13 |     [01;36m[Kthis->declare_parameter("x")[m[K;
+[3.732s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.732s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rclcpp::ParameterValue&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.732s]   445 |   [01;36m[Kdeclare_parameter[m[K(
+[3.732s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.732s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.732s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, rclcpp::ParameterType, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.732s]   470 |   [01;36m[Kdeclare_parameter[m[K(
+[3.732s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.733s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.733s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:14:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransform::declare_parameter(const char [2])[m[K’
+[3.733s]    14 |     [01;31m[Kthis->declare_parameter("y")[m[K;
+[3.733s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.733s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const ParameterT&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.733s]   500 |   [01;36m[Kdeclare_parameter[m[K(
+[3.733s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.733s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.733s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:14:28:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.733s]    14 |     [01;36m[Kthis->declare_parameter("y")[m[K;
+[3.733s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.734s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.734s]   513 |   [01;36m[Kdeclare_parameter[m[K(
+[3.734s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.734s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.734s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:14:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[3.734s]    14 |     [01;36m[Kthis->declare_parameter("y")[m[K;
+[3.734s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.734s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rclcpp::ParameterValue&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.734s]   445 |   [01;36m[Kdeclare_parameter[m[K(
+[3.734s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.735s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.735s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, rclcpp::ParameterType, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.735s]   470 |   [01;36m[Kdeclare_parameter[m[K(
+[3.735s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.735s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.735s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:15:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransform::declare_parameter(const char [2])[m[K’
+[3.735s]    15 |     [01;31m[Kthis->declare_parameter("z")[m[K;
+[3.735s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.735s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const ParameterT&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.735s]   500 |   [01;36m[Kdeclare_parameter[m[K(
+[3.736s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.736s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.736s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:15:28:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.736s]    15 |     [01;36m[Kthis->declare_parameter("z")[m[K;
+[3.736s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.736s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.736s]   513 |   [01;36m[Kdeclare_parameter[m[K(
+[3.736s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.736s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.736s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:15:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[3.736s]    15 |     [01;36m[Kthis->declare_parameter("z")[m[K;
+[3.736s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.737s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rclcpp::ParameterValue&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.737s]   445 |   [01;36m[Kdeclare_parameter[m[K(
+[3.737s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.737s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.737s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, rclcpp::ParameterType, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.737s]   470 |   [01;36m[Kdeclare_parameter[m[K(
+[3.737s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.737s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.737s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:16:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransform::declare_parameter(const char [5])[m[K’
+[3.737s]    16 |     [01;31m[Kthis->declare_parameter("roll")[m[K;
+[3.737s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.737s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const ParameterT&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.737s]   500 |   [01;36m[Kdeclare_parameter[m[K(
+[3.737s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.738s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.738s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:16:28:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.738s]    16 |     [01;36m[Kthis->declare_parameter("roll")[m[K;
+[3.738s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.738s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.738s]   513 |   [01;36m[Kdeclare_parameter[m[K(
+[3.738s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.738s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.738s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:16:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[3.738s]    16 |     [01;36m[Kthis->declare_parameter("roll")[m[K;
+[3.738s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.738s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rclcpp::ParameterValue&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.739s]   445 |   [01;36m[Kdeclare_parameter[m[K(
+[3.739s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.739s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.739s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, rclcpp::ParameterType, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.739s]   470 |   [01;36m[Kdeclare_parameter[m[K(
+[3.739s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.739s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.739s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:17:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransform::declare_parameter(const char [6])[m[K’
+[3.739s]    17 |     [01;31m[Kthis->declare_parameter("pitch")[m[K;
+[3.739s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.739s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const ParameterT&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.740s]   500 |   [01;36m[Kdeclare_parameter[m[K(
+[3.740s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.740s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.740s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:17:28:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.740s]    17 |     [01;36m[Kthis->declare_parameter("pitch")[m[K;
+[3.740s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.740s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.740s]   513 |   [01;36m[Kdeclare_parameter[m[K(
+[3.740s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.740s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.740s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:17:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[3.741s]    17 |     [01;36m[Kthis->declare_parameter("pitch")[m[K;
+[3.741s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.741s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rclcpp::ParameterValue&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.741s]   445 |   [01;36m[Kdeclare_parameter[m[K(
+[3.741s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.741s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.741s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, rclcpp::ParameterType, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.741s]   470 |   [01;36m[Kdeclare_parameter[m[K(
+[3.741s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.741s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.741s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:18:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransform::declare_parameter(const char [4])[m[K’
+[3.741s]    18 |     [01;31m[Kthis->declare_parameter("yaw")[m[K;
+[3.741s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.741s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const ParameterT&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.741s]   500 |   [01;36m[Kdeclare_parameter[m[K(
+[3.741s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.742s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:500:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.742s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:18:28:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.742s]    18 |     [01;36m[Kthis->declare_parameter("yaw")[m[K;
+[3.742s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.742s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.742s]   513 |   [01;36m[Kdeclare_parameter[m[K(
+[3.742s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.742s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:513:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.742s] [01m[K/home/vusolee806/ydlidar_ros2_ws/src/slam_gmapping/src/transform.cpp:18:28:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[3.742s]    18 |     [01;36m[Kthis->declare_parameter("yaw")[m[K;
+[3.742s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.742s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, const rclcpp::ParameterValue&, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.742s]   445 |   [01;36m[Kdeclare_parameter[m[K(
+[3.743s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.743s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:445:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.743s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::[01;32m[Kdeclare_parameter[m[K(const std::string&, rclcpp::ParameterType, const rcl_interfaces::msg::ParameterDescriptor&, bool)[m[K’
+[3.743s]   470 |   [01;36m[Kdeclare_parameter[m[K(
+[3.743s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.743s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:470:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[5.550s] gmake[2]: *** [CMakeFiles/transform.dir/build.make:76: CMakeFiles/transform.dir/src/transform.cpp.o] Error 1
+[5.551s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/transform.dir/all] Error 2
+[5.551s] gmake: *** [Makefile:146: all] Error 2
+[5.554s] Invoked command in '/home/vusolee806/ydlidar_ros2_ws/build/slam_gmapping' returned '2': AMENT_PREFIX_PATH=/home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/vusolee806/ydlidar_ros2_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/vusolee806/ydlidar_ros2_ws/build/slam_gmapping -- -j16 -l16
